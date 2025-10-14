@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm William Callahan 👋</h1>
+<h1 align="center">Hi, I'm William Callahan</h1>
 <p align="center">
   <strong>Software Engineer · Building AI/LLM, Data, and Search-Driven Products · Founder @ <a href="https://aVenture.vc">aVenture.vc</a>.</strong>
 </p>
@@ -12,7 +12,7 @@
 
 ---
 
-### 🧠 Current Focus
+### Current Focus
 
 - Building [aVenture.vc](https://aVenture.vc) – early-stage startup company research & intelligence platform  
 - Improving multi-source enrichment agents for structured company + document profiles
@@ -20,7 +20,7 @@
 
 ---
 
-### 🏗️ Some of My Work
+### Some of My Work
 
 | Project | What It Is | Stack / Notes | Link |
 |---------|------------|---------------|------|
@@ -35,7 +35,7 @@
 
 ---
 
-### 🧬 Language & Stack Snapshot
+### Language & Stack Snapshot
 
 <p align="center">
   <picture>
@@ -49,7 +49,7 @@
 
 ---
 
-### 🧪 Agent / Retrieval Experiments
+### Agent / Retrieval Experiments
 
 These days I'm doing a lot of work on:
 - Multi-stage web crawling → parsing → enrichment data pipelines
@@ -60,7 +60,7 @@ If you're working on similar things, feel free to reach out! Especially if you'r
 
 ---
 
-### 🌱 Background
+### Background
 
 I live in the United States. Grew up in a small town in Iowa, and am now living my dream of building tech in San Francisco. I post and share regularly at:  
 - Personal writing: [williamcallahan.com](https://williamcallahan.com)  
@@ -69,7 +69,7 @@ I live in the United States. Grew up in a small town in Iowa, and am now living 
 
 ---
 
-### 🤝 Connect
+### Connect
 
 DM on [X](https://x.com/williamcallahan) or connect on [LinkedIn](https://linkedin.com/in/williamacallahan).
 
