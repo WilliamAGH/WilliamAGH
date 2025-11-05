@@ -30,7 +30,7 @@
 | TUI Company Search | Terminal-first research interface | Rich TUI, streaming updates | [tui.aventure.vc](https://tui.aventure.vc) |
 | Repo Tokens Calculator | Quickly estimate token + embedding budgets for repos | Parsing + language-aware heuristics | [GitHub](https://github.com/WilliamAGH/repo-tokens-calculator) |
 | VS Code Extension | Flags deprecated files in large workspaces | Developer experience tooling | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=WilliamCallahan.flag-deprecated-files) |
-| ComposerAI | AI-assisted content / composition experiments | Prompt pipelines | [GitHub](https://github.com/WilliamAGH/ComposerAI) |
+| ComposerAI | AI-assisted content / composition experiments | Prompt pipelines | [composerai.app](https://composerai.app) |
 | Personal Site | Writing, background, bookmarks | Minimal, content-first | [williamcallahan.com](https://williamcallahan.com) |
 
 ---
@@ -45,7 +45,7 @@
 </p>
 
 **Core Toolbox:**  
-`TypeScript / JavaScript` · `Java` · `Python` · `Node.js / Bun / Deno` · `React / Next.js` · `PostgreSQL` · `Spring Boot` · `Vector Embeddings` · `Playwright / Scraping` · `LLMs (OpenAI, Anthropic, Qwen, LLama, DeepSeek, etc.)`
+`TypeScript / JavaScript` · `Java` · `Python` · `Node.js / Bun / Deno` · `React / Next.js / Svelte / SvelteKit` · `PostgreSQL / MySQL` · `Spring Boot` · `Vector Embeddings / Qdrant / pgvector` · `Playwright / Scraping` · `LLMs (OpenAI, Anthropic, Qwen, LLama, DeepSeek, etc.)`
 
 ---
 
