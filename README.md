@@ -16,7 +16,8 @@
 
 - Building [aVenture.vc](https://aVenture.vc) – early-stage startup company research & intelligence platform  
 - Improving multi-source enrichment agents for structured company + document profiles
-- Iterating on hybrid web search + conversational reasoning ([search-ai.io](https://search-ai.io)) 
+- Iterating on hybrid web search + conversational reasoning ([search-ai.io](https://search-ai.io))
+- Experimenting with a modern web application using AI to anticipate user needs ([Composer](https://composerai.app))
 
 ---
 
@@ -26,12 +27,12 @@
 |---------|------------|---------------|------|
 | aVenture | Intelligence + diligence platform for venture research | Multi-service web app, enrichment agents | [aVenture.vc](https://aVenture.vc) |
 | Hybrid Search AI | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [search-ai.io](https://search-ai.io) |
+| Email Assistant | AI-assisted content / composition experiments | Prompt pipelines | [composerai.app](https://composerai.app) |
 | FindMyBook | Millions of books searchable with semantic + structured filters | Indexing + metadata normalization | [findmybook.net](https://findmybook.net) |
 | TUI Company Search | Terminal-first research interface | Rich TUI, streaming updates | [tui.aventure.vc](https://tui.aventure.vc) |
 | Repo Tokens Calculator | Quickly estimate token + embedding budgets for repos | Parsing + language-aware heuristics | [GitHub](https://github.com/WilliamAGH/repo-tokens-calculator) |
 | VS Code Extension | Flags deprecated files in large workspaces | Developer experience tooling | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=WilliamCallahan.flag-deprecated-files) |
-| ComposerAI | AI-assisted content / composition experiments | Prompt pipelines | [composerai.app](https://composerai.app) |
-| Personal Site | Writing, background, bookmarks | Minimal, content-first | [williamcallahan.com](https://williamcallahan.com) |
+| Personal Site | Writing, background, bookmarks | Next.js, S3, TypeScript | [williamcallahan.com](https://williamcallahan.com) |
 
 ---
 
