@@ -26,13 +26,15 @@
 | Project | What It Is | Stack / Notes | Link |
 |---------|------------|---------------|------|
 | aVenture | Intelligence + diligence platform for venture research | Multi-service web app, enrichment agents | [aVenture.vc](https://aVenture.vc) |
-| Hybrid Search AI | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [search-ai.io](https://search-ai.io) |
-| Email Assistant | AI-assisted content / composition experiments | Prompt pipelines | [composerai.app](https://composerai.app) |
-| FindMyBook | Millions of books searchable with semantic + structured filters | Indexing + metadata normalization | [findmybook.net](https://findmybook.net) |
 | TUI Company Search | Terminal-first research interface | Rich TUI, streaming updates | [tui.aventure.vc](https://tui.aventure.vc) |
+| Hybrid Search AI | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [search-ai.io](https://search-ai.io) |
+| Personal Site | Writing, background, bookmarks | Next.js, S3, TypeScript | [williamcallahan.com](https://williamcallahan.com) |
+| ComposerAI | AI-assisted email application | Java 25, Spring Boot 3.5, Svelte 5 | [composerai.app](https://composerai.app) |
+| Brief | A beautiful terminal user interface LLM client for AI chat with tool calls and model switching | Java 25 | [GitHub](https://github.com/WilliamAGH/brief)
 | Repo Tokens Calculator | Quickly estimate token + embedding budgets for repos | Parsing + language-aware heuristics | [GitHub](https://github.com/WilliamAGH/repo-tokens-calculator) |
 | VS Code Extension | Flags deprecated files in large workspaces | Developer experience tooling | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=WilliamCallahan.flag-deprecated-files) |
-| Personal Site | Writing, background, bookmarks | Next.js, S3, TypeScript | [williamcallahan.com](https://williamcallahan.com) |
+| FindMyBook | Millions of books searchable with semantic + structured filters | Indexing + metadata normalization | [findmybook.net](https://findmybook.net) |
+
 
 ---
 
