@@ -27,6 +27,7 @@
 |---------|------------|---------------|------|
 | aVenture | Intelligence + diligence platform for venture research | Multi-service web app, enrichment agents | [aVenture.vc](https://aVenture.vc) |
 | TUI Company Search | Terminal-first research interface | Rich TUI, streaming updates | [tui.aventure.vc](https://tui.aventure.vc) |
+| TUI4J | A modern terminal user interface library for Java | Java, Spring a port of BubbleTea from Go | [GitHub](https://github.com/WilliamAGH/tui4j)
 | Hybrid Search AI | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [search-ai.io](https://search-ai.io) |
 | Personal Site | Writing, background, bookmarks | Next.js, S3, TypeScript | [williamcallahan.com](https://williamcallahan.com) |
 | ComposerAI | AI-assisted email application | Java 25, Spring Boot 3.5, Svelte 5 | [composerai.app](https://composerai.app) |
