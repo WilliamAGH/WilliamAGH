@@ -1,0 +1,64 @@
+name: Update Profile Stats
+on:
+  schedule:
+    # Run daily at 01:13 PT (09:13 UTC)
+    - cron: "13 9 * * *"
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Stats Images (with retry/backoff)
+        run: |
+          set -euo pipefail
+
+          # 1. Create directory if it doesn't exist
+          mkdir -p assets
+
+          fetch_with_retry() {
+            local url="$1"
+            local out="$2"
+            local attempts=5
+            local delay=5
+
+            for i in $(seq 1 "$attempts"); do
+              if curl --fail -L "$url" -o "$out"; then
+                return 0
+              fi
+
+              if [ "$i" -lt "$attempts" ]; then
+                echo "Fetch failed (attempt $i/$attempts). Retrying in ${delay}s..."
+                sleep "$delay"
+                delay=$((delay * 3))
+              fi
+            done
+
+            echo "Fetch failed after $attempts attempts: $url" >&2
+            return 1
+          }
+
+          # 2. Fetch the images.
+          # We use --fail so curl errors out if the server returns 4xx/5xx
+          fetch_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&hide_border=true" "assets/languages-light.svg"
+          fetch_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&theme=github_dark&hide_border=true" "assets/languages-dark.svg"
+      - name: Check for changes
+        id: git-check
+        run: |
+          if git diff --quiet -- assets/languages-light.svg assets/languages-dark.svg; then
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit and Push
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/languages-light.svg assets/languages-dark.svg
+          git commit -m "chore: update profile stats [skip ci]"
+          git push
