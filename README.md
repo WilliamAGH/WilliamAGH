@@ -25,15 +25,15 @@
 
 | Project | What It Is | Stack / Notes | Link |
 |---------|------------|---------------|------|
-| aVenture | Intelligence + diligence platform for venture research | Multi-service web app, enrichment agents | [aVenture.vc](https://aVenture.vc) |
-| TUI Company Search | Terminal-first research interface | Rich TUI, streaming updates | [tui.aventure.vc](https://tui.aventure.vc) |
-| TUI4J | A modern terminal user interface library for Java | Java, Spring a port of BubbleTea from Go | [GitHub](https://github.com/WilliamAGH/tui4j)
-| Hybrid Search AI | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [search-ai.io](https://search-ai.io) |
-| Personal Site | Writing, background, bookmarks | Next.js, S3, TypeScript | [williamcallahan.com](https://williamcallahan.com) |
-| ComposerAI | AI-assisted email application | Java 25, Spring Boot 3.5, Svelte 5 | [composerai.app](https://composerai.app) |
+| [aVenture](https://aVenture.vc) | Intelligence + diligence platform for venture research | Multi-service web app, enrichment agents | [aVenture.vc](https://aVenture.vc) |
+| [aVenture: TUI Company Search](https://tui.aventure.vc) | Terminal-first research interface | Rich TUI, streaming updates | [tui.aventure.vc](https://tui.aventure.vc) |
+| TUI4J | A modern terminal user interface library for Java | Java, Spring a port of BubbleTea from Go | [GitHub](https://github.com/WilliamAGH/tui4j) |
+| [SearchAI](https://search-ai.io) | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [GitHub](https://github.com/WilliamAGH/searchai-io) |
+| [williamcallahan.com](https://williamcallahan.com) | Writing, background, bookmarks | Next.js, S3, TypeScript | [GitHub](https://github.com/WilliamAGH/williamcallahan.com) |
+| [Composer](https://composerai.app) | AI-assisted email application | Java 25, Spring Boot 3.5, Svelte 5 | [GitHub](https://github.com/WilliamAGH/composerai) |
 | Brief | A beautiful terminal user interface LLM client for AI chat with tool calls and model switching | Java 25 | [GitHub](https://github.com/WilliamAGH/brief)
 | Repo Tokens Calculator | Quickly estimate token + embedding budgets for repos | Parsing + language-aware heuristics | [GitHub](https://github.com/WilliamAGH/repo-tokens-calculator) |
-| VS Code Extension | Flags deprecated files in large workspaces | Developer experience tooling | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=WilliamCallahan.flag-deprecated-files) |
+| [Filey: VS Code Extension](https://marketplace.visualstudio.com/items?itemName=WilliamCallahan.flag-deprecated-files) | Flags deprecated files in large workspaces | Developer experience tooling | [GitHub](https://github.com/WilliamAGH/vscode-flag-deprecated-files-extension) |
 | FindMyBook | Millions of books searchable with semantic + structured filters | Indexing + metadata normalization | [findmybook.net](https://findmybook.net) |
 
 
@@ -43,8 +43,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&theme=github_dark&hide_border=true" />
-    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg" />
+    <img alt="Top languages" src="assets/languages-light.svg" />
   </picture>
 </p>
 
