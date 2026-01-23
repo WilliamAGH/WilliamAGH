@@ -34,7 +34,7 @@
 | Brief | A beautiful terminal user interface LLM client for AI chat with tool calls and model switching | Java 25 | [GitHub](https://github.com/WilliamAGH/brief)
 | Repo Tokens Calculator | Quickly estimate token + embedding budgets for repos | Parsing + language-aware heuristics | [GitHub](https://github.com/WilliamAGH/repo-tokens-calculator) |
 | [Filey: VS Code Extension](https://marketplace.visualstudio.com/items?itemName=WilliamCallahan.flag-deprecated-files) | Flags deprecated files in large workspaces | Developer experience tooling | [GitHub](https://github.com/WilliamAGH/vscode-flag-deprecated-files-extension) |
-| FindMyBook | Millions of books searchable with semantic + structured filters | Indexing + metadata normalization | [findmybook.net](https://findmybook.net) |
+| [FindMyBook](https://findmybook.net) | Millions of books searchable with semantic + structured filters | Indexing + metadata normalization | [GitHub](https://github.com/WilliamAGH/findmybook) |
 
 
 ---
