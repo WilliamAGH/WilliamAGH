@@ -28,7 +28,7 @@
 | [aVenture](https://aVenture.vc) | Intelligence + diligence platform for venture research | Multi-service web app, enrichment agents | [aVenture.vc](https://aVenture.vc) |
 | [aVenture: TUI Company Search](https://tui.aventure.vc) | Terminal-first research interface | Rich TUI, streaming updates | [tui.aventure.vc](https://tui.aventure.vc) |
 | [TUI4J](https://williamcallahan.com/projects/tui4j) | A modern terminal user interface library for Java | Java, Spring a port of BubbleTea from Go | [GitHub](https://github.com/WilliamAGH/tui4j) |
-| [SearchAI](https://search-ai.io) | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [GitHub](https://github.com/WilliamAGH/searchai-io) |
+| [SearchAI](https://search-ai.io) | Perplexity-like retrieval + chat | RAG, SERP + crawler fusion | [GitHub](https://github.com/WilliamAGH/searchai) |
 | [williamcallahan.com](https://williamcallahan.com) | Writing, background, bookmarks | Next.js, S3, TypeScript | [GitHub](https://github.com/WilliamAGH/williamcallahan.com) |
 | [Composer](https://composerai.app) | AI-assisted email application | Java 25, Spring Boot 3.5, Svelte 5 | [GitHub](https://github.com/WilliamAGH/composerai) |
 | [Brief](https://williamcallahan.com/projects/brief) | A beautiful terminal user interface LLM client for AI chat with tool calls and model switching | Java 25 | [GitHub](https://github.com/WilliamAGH/brief)
