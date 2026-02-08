@@ -44,8 +44,8 @@ jobs:
 
           # 2. Fetch the images.
           # We use --fail so curl errors out if the server returns 4xx/5xx
-          fetch_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&hide_border=true" "assets/languages-light.svg"
-          fetch_with_retry "https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&theme=github_dark&hide_border=true" "assets/languages-dark.svg"
+          fetch_with_retry "https://github-stats.popos-sf1.com/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&hide_border=true" "assets/languages-light.svg"
+          fetch_with_retry "https://github-stats.popos-sf1.com/api/top-langs/?username=WilliamAGH&layout=compact&langs_count=10&exclude_repo=aventurevc/back-end&theme=github_dark&hide_border=true" "assets/languages-dark.svg"
       - name: Check for changes
         id: git-check
         run: |
